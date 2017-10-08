@@ -1055,6 +1055,17 @@ browserslist@^1.3.6, browserslist@^1.5.2, browserslist@^1.7.6:
     caniuse-db "^1.0.30000639"
     electron-to-chromium "^1.2.7"
 
+bs-loader@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/bs-loader/-/bs-loader-1.8.2.tgz#efd19d56b14d8e0c8bb18283045e7f04427d6cab"
+  dependencies:
+    loader-utils "^1.1.0"
+    read-bsconfig "^1.0.1"
+
+bs-platform@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-2.0.0.tgz#17ee607fa829f67b8b920438ebca5ec1deab3276"
+
 bser@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/bser/-/bser-2.0.0.tgz#9ac78d3ed5d915804fd87acb158bc797147a1719"
@@ -4404,7 +4415,7 @@ react-addons-update@^15.6.2:
     fbjs "^0.8.9"
     object-assign "^4.1.0"
 
-react-dom@^16.0.0:
+react-dom@>=15.0.0, react-dom@^16.0.0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.0.0.tgz#9cc3079c3dcd70d4c6e01b84aab2a7e34c303f58"
   dependencies:
@@ -4413,7 +4424,7 @@ react-dom@^16.0.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react@^16.0.0:
+react@>=15.0.0, react@^16.0.0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.0.0.tgz#ce7df8f1941b036f02b2cca9dbd0cb1f0e855e2d"
   dependencies:
@@ -4421,6 +4432,12 @@ react@^16.0.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
+
+read-bsconfig@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/read-bsconfig/-/read-bsconfig-1.0.2.tgz#8f3cec0b1c80465de1d96d32b328174243804836"
+  dependencies:
+    json5 "^0.5.1"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -4481,6 +4498,13 @@ readdirp@^2.0.0:
     minimatch "^3.0.2"
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
+
+reason-react@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.2.4.tgz#96d85a533fc93e695818dbb3e6a8ae05fbf0de7d"
+  dependencies:
+    react ">=15.0.0"
+    react-dom ">=15.0.0"
 
 redent@^1.0.0:
   version "1.0.0"
