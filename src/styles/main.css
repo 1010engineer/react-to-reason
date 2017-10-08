@@ -1,0 +1,12 @@
+.table .col-head,
+.table .row-head {
+  padding: 2px;
+  text-align: center;
+}
+.table > tbody > tr > td {
+  padding: 0;
+}
+.table > tbody > tr > td > input {
+  border: none;
+  width: 100%;
+}
