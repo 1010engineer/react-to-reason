@@ -14,11 +14,11 @@ export default class Cell extends React.Component {
     if (match) {
       return {
         sum:
-          this.props.getCellVal(match[2], match[3]) +
-          this.props.getCellVal(match[4], match[5]),
+          this.props.getCellValue(match[2], match[3]) +
+          this.props.getCellValue(match[4], match[5]),
         mul:
-          this.props.getCellVal(match[2], match[3]) *
-          this.props.getCellVal(match[4], match[5])
+          this.props.getCellValue(match[2], match[3]) *
+          this.props.getCellValue(match[4], match[5])
       }[match[1]];
     } else {
       return formula;

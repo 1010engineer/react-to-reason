@@ -2,7 +2,7 @@ import React from "react";
 import update from "react-addons-update";
 import _ from "lodash";
 import { fromColumnName, toColumnName } from "../Util";
-import Row from "./Row";
+import Row from "./Row.re";
 
 export default class Spreadsheet extends React.Component {
   constructor(props) {
@@ -68,7 +68,7 @@ export default class Spreadsheet extends React.Component {
           key={"row_" + i}
           rowNumber={i + 1}
           cells={row}
-          getCellVal={this.getCellValue.bind(this)}
+          getCellValue={this.getCellValue.bind(this)}
           onCellValueChange={this.onDataChange.bind(this, i)}
         />
       );
